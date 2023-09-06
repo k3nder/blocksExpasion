@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "brixpansion:block/cut_emerald",
+    "top": "brixpansion:block/cut_emerald",
+    "side": "brixpansion:block/cut_emerald"
+  }
+}

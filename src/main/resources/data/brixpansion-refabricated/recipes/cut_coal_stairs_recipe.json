@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "brixpansion:cut_coal"
+    },
+    "3": {
+      "item": "brixpansion:cut_coal"
+    },
+    "4": {
+      "item": "brixpansion:cut_coal"
+    },
+    "6": {
+      "item": "brixpansion:cut_coal"
+    },
+    "7": {
+      "item": "brixpansion:cut_coal"
+    },
+    "8": {
+      "item": "brixpansion:cut_coal"
+    }
+  },
+  "result": {
+    "item": "brixpansion:cut_coal_stairs",
+    "count": 4
+  }
+}

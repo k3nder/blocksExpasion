@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "brixpansion:block/diorite_bricks",
+    "particle": "brixpansion:block/diorite_bricks"
+  }
+}

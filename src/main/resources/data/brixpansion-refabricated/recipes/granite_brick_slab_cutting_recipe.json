@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "tag": "brixpansion:granite_blocks"
+  },
+  "result": "brixpansion:granite_brick_slab"
+}

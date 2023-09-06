@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "brixpansion:dripstone_bricks"
+    },
+    "3": {
+      "item": "brixpansion:dripstone_bricks"
+    },
+    "4": {
+      "item": "brixpansion:dripstone_bricks"
+    },
+    "6": {
+      "item": "brixpansion:dripstone_bricks"
+    },
+    "7": {
+      "item": "brixpansion:dripstone_bricks"
+    },
+    "8": {
+      "item": "brixpansion:dripstone_bricks"
+    }
+  },
+  "result": {
+    "item": "brixpansion:dripstone_brick_stairs",
+    "count": 4
+  }
+}

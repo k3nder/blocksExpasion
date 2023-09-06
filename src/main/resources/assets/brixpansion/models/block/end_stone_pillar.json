@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "brixpansion:block/end_stone_pillar_top",
+    "up": "brixpansion:block/end_stone_pillar_top",
+    "north": "brixpansion:block/end_stone_pillar",
+    "east": "brixpansion:block/end_stone_pillar",
+    "south": "brixpansion:block/end_stone_pillar",
+    "west": "brixpansion:block/end_stone_pillar",
+    "particle": "brixpansion:block/end_stone_pillar_top"
+  }
+}

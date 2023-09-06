@@ -1,0 +1,13 @@
+{
+ "pools": [
+     {
+         "rolls": 1,
+         "entries": [
+             {
+                 "type": "minecraft:item",
+                 "name": "brixpansion:obsidian_brick_slab"
+             }
+         ]
+     }
+ ]
+}

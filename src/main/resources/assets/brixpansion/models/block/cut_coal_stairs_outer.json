@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "brixpansion:block/cut_coal",
+    "top": "brixpansion:block/cut_coal",
+    "side": "brixpansion:block/cut_coal"
+  }
+}

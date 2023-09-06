@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "brixpansion:cut_emerald"
+    },
+    "1": {
+      "item": "brixpansion:cut_emerald"
+    },
+    "2": {
+      "item": "brixpansion:cut_emerald"
+    }
+  },
+  "result": {
+    "item": "brixpansion:cut_emerald_slab",
+    "count": 6
+  }
+}

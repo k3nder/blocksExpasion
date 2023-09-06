@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dripstone_block",
+    "brixpansion:dripstone_bricks"
+  ]
+}

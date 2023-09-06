@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "brixpansion:block/cut_emerald",
+    "particle": "brixpansion:block/cut_emerald"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "brixpansion:block/basalt_bricks",
+    "particle": "brixpansion:block/basalt_bricks"
+  }
+}

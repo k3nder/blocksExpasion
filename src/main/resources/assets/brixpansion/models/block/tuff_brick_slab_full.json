@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "brixpansion:block/tuff_bricks",
+    "top": "brixpansion:block/tuff_bricks",
+    "side": "brixpansion:block/tuff_bricks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "brixpansion:block/prismarine_pillar_top",
+    "up": "brixpansion:block/prismarine_pillar_top",
+    "north": "brixpansion:block/prismarine_pillar",
+    "east": "brixpansion:block/prismarine_pillar",
+    "south": "brixpansion:block/prismarine_pillar",
+    "west": "brixpansion:block/prismarine_pillar",
+    "particle": "brixpansion:block/prismarine_pillar_top"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "brixpansion:granite_brick_wall",
+    "brixpansion:calcite_brick_wall",
+    "brixpansion:diorite_brick_wall",
+    "brixpansion:amethyst_brick_wall",
+    "brixpansion:dripstone_brick_wall",
+    "brixpansion:andesite_brick_wall",
+    "brixpansion:obsidian_brick_wall",
+    "brixpansion:basalt_brick_wall",
+    "brixpansion:tuff_brick_wall"
+  ]
+}

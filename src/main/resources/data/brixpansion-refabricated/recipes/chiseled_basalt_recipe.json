@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "brixpansion:basalt_brick_slab"
+    },
+    "1": {
+      "item": "brixpansion:andesite_brick_slab"
+    }
+  },
+  "result": {
+    "item": "brixpansion:chiseled_basalt_bricks",
+    "count": 1
+  }
+}

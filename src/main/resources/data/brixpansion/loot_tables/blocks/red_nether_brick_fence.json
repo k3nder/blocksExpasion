@@ -1,0 +1,13 @@
+{
+ "pools": [
+     {
+         "rolls": 1,
+         "entries": [
+             {
+                 "type": "minecraft:item",
+                 "name": "brixpansion:red_nether_brick_fence"
+             }
+         ]
+     }
+ ]
+}

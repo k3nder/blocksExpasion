@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "brixpansion:cut_gold"
+    },
+    "1": {
+      "item": "brixpansion:cut_gold"
+    },
+    "2": {
+      "item": "brixpansion:cut_gold"
+    }
+  },
+  "result": {
+    "item": "brixpansion:cut_gold_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "brixpansion:block/cut_redstone_slab"
+    },
+    "type=top": {
+      "model": "brixpansion:block/cut_redstone_slab_top"
+    },
+    "type=double": {
+      "model": "brixpansion:block/cut_redstone_slab_full"
+    }
+  }
+}

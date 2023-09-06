@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "brixpansion:block/granite_bricks",
+    "top": "brixpansion:block/granite_bricks",
+    "side": "brixpansion:block/granite_bricks"
+  }
+}

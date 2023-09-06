@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "brixpansion:block/dripstone_bricks",
+    "particle": "brixpansion:block/dripstone_bricks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "brixpansion:basalt_blocks"
+  },
+  "result": "brixpansion:basalt_brick_pillar"
+}

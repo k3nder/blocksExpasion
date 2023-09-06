@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "brixpansion:block/amethyst_pillar_top",
+    "up": "brixpansion:block/amethyst_pillar_top",
+    "north": "brixpansion:block/amethyst_pillar",
+    "east": "brixpansion:block/amethyst_pillar",
+    "south": "brixpansion:block/amethyst_pillar",
+    "west": "brixpansion:block/amethyst_pillar",
+    "particle": "brixpansion:block/amethyst_pillar_top"
+  }
+}

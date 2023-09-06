@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "brixpansion:andesite_bricks",
+    "minecraft:andesite",
+    "minecraft:polished_andesite"
+  ]
+}

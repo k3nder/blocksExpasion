@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "brixpansion:obsidian_blocks"
+  },
+  "result": "brixpansion:cracked_obsidian_bricks"
+}

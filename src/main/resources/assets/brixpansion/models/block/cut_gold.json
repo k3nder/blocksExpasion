@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "brixpansion:block/cut_gold",
+    "particle": "brixpansion:block/cut_gold"
+  }
+}

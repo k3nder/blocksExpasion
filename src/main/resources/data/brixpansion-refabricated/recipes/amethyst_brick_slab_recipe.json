@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "brixpansion:amethyst_bricks"
+    },
+    "1": {
+      "item": "brixpansion:amethyst_bricks"
+    },
+    "2": {
+      "item": "brixpansion:amethyst_bricks"
+    }
+  },
+  "result": {
+    "item": "brixpansion:amethyst_brick_slab",
+    "count": 6
+  }
+}

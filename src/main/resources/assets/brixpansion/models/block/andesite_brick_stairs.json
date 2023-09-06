@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "brixpansion:block/andesite_bricks",
+    "top": "brixpansion:block/andesite_bricks",
+    "side": "brixpansion:block/andesite_bricks"
+  }
+}

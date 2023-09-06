@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "brixpansion:block/amethyst_brick_slab"
+    },
+    "type=top": {
+      "model": "brixpansion:block/amethyst_brick_slab_top"
+    },
+    "type=double": {
+      "model": "brixpansion:block/amethyst_brick_slab_full"
+    }
+  }
+}

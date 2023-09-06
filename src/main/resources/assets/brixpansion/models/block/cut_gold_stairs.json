@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "brixpansion:block/cut_gold",
+    "top": "brixpansion:block/cut_gold",
+    "side": "brixpansion:block/cut_gold"
+  }
+}

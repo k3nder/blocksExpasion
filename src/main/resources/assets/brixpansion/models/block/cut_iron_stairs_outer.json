@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "brixpansion:block/cut_iron",
+    "top": "brixpansion:block/cut_iron",
+    "side": "brixpansion:block/cut_iron"
+  }
+}

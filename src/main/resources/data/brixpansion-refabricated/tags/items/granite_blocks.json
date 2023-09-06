@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "brixpansion:granite_bricks",
+    "minecraft:granite",
+    "minecraft:polished_granite"
+  ]
+}

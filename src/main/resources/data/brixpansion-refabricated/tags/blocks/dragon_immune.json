@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "brixpansion:obsidian_brick_stairs",
+    "brixpansion:chiseled_obsidian_bricks",
+    "brixpansion:obsidian_brick_pillar",
+    "brixpansion:obsidian_bricks",
+    "brixpansion:obsidian_brick_wall",
+    "brixpansion:obsidian_brick_slab",
+    "brixpansion:cracked_obsidian_bricks"
+  ]
+}

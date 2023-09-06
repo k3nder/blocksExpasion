@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "brixpansion:block/granite_bricks",
+    "particle": "brixpansion:block/granite_bricks"
+  }
+}

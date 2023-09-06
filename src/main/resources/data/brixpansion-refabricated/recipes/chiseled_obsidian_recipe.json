@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "brixpansion:obsidian_brick_slab"
+    },
+    "1": {
+      "item": "brixpansion:obsidian_brick_slab"
+    }
+  },
+  "result": {
+    "item": "brixpansion:chiseled_obsidian_bricks",
+    "count": 1
+  }
+}
