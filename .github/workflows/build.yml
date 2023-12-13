@@ -21,10 +21,10 @@ jobs:
       - name: Copiar JAR a directorio de artefactos
         run: |
           mkdir artifacts
-          cp build/libs/nombre-del-jar.jar artifacts/
+          cp build/libs/brixpansion-refabricated-1.0.1.jar artifacts/
 
       - name: Subir JAR como artefacto
         uses: actions/upload-artifact@v2
         with:
-          name: nombre-del-artefacto
+          name: brixpansion-refabricated-1.0.1.jar
           path: artifacts/
