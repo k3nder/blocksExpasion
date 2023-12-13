@@ -25,12 +25,9 @@ jobs:
           # Construir con Gradle
           ./gradlew.bat build
 
-      - name: create release
-        uses: nekofar/create-github-release@v1.0.9
+      - name: Crear Release en GitHub
+        uses: softprops/action-gh-release@v1
         with:
-          tag: name
-          title: release
-          files: |
-            .\build\libs\brixpansion-refabricated-1.0.1.jar artifacts\
-
-          token: ${{  secrets.GH_TOKEN }}
+          files: build/libs/brixpansion-refabricated-1.0.1.jar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
