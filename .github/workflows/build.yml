@@ -8,33 +8,23 @@ on: [pull_request, push]
 
 jobs:
   build:
-    strategy:
-      matrix:
-        # Use these Java versions
-        java: [
-          17,    # Current Java LTS & minimum supported by Minecraft
-        ]
-        # and run on both Linux and Windows
-        os: [ubuntu-22.04, windows-2022]
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
+
     steps:
-      - name: checkout repository
-        uses: actions/checkout@v3
-      - name: validate gradle wrapper
-        uses: gradle/wrapper-validation-action@v1
-      - name: setup jdk ${{ matrix.java }}
-        uses: actions/setup-java@v3
+      - name: Checkout del código
+        uses: actions/checkout@v2
+
+      - name: Configuración de Java y construcción con Gradle
+        run: |
+          ./gradlew build
+
+      - name: Copiar JAR a directorio de artefactos
+        run: |
+          mkdir artifacts
+          cp build/libs/nombre-del-jar.jar artifacts/
+
+      - name: Subir JAR como artefacto
+        uses: actions/upload-artifact@v2
         with:
-          java-version: ${{ matrix.java }}
-          distribution: 'microsoft'
-      - name: make gradle wrapper executable
-        if: ${{ runner.os != 'Windows' }}
-        run: chmod +x ./gradlew
-      - name: build
-        run: ./gradlew build
-      - name: capture build artifacts
-        if: ${{ runner.os == 'Linux' && matrix.java == '17' }} # Only upload artifacts built from latest java on one OS
-        uses: actions/upload-artifact@v3
-        with:
-          name: Artifacts
-          path: build/libs/
+          name: nombre-del-artefacto
+          path: artifacts/

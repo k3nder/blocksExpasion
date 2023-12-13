@@ -53,12 +53,7 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	
-  	// compile against the JEI API but do not include it at runtime
-	modCompileOnlyApi("mezz.jei:jei-${mc_version}-common-api:${jei_version}")
-  	modCompileOnlyApi("mezz.jei:jei-${mc_version}-fabric-api:${jei_version}")
-  	// at runtime, use the full JEI jar for Fabric
-  	modRuntimeOnly("mezz.jei:jei-${mc_version}-fabric:${jei_version}")
+
 	
 	// Uncomment the following line to enable the deprecated Fabric API modules. 
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
