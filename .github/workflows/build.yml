@@ -16,7 +16,8 @@ jobs:
 
       - name: Configuración de Java y construcción con Gradle
         run: |
-          gradlew build
+          chmod +x gradlew.bat
+          ./gradlew.bat build
 
       - name: Copiar JAR a directorio de artefactos
         run: |
