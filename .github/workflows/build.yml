@@ -36,4 +36,4 @@ jobs:
           name: 1.20.2
 
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: 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
