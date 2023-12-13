@@ -20,18 +20,20 @@ jobs:
           distribution: "adopt"
           java-version: "17"
 
-      - name: construcción con Gradle
-        run: |
-          # Construir con Gradle
-          ./gradlew.bat build
+      #- name: construcción con Gradle
+      #  run: |
+      # Construir con Gradle
+      #    ./gradlew.bat build
 
-      - name: Configurar git para el cli de GitHub
-        run: gh auth login --with-token ${{ secrets.GH_TOKEN }}
+      - name: cat
+        run: New-Item cat.txt
 
       - name: Crear Release en GitHub
         uses: softprops/action-gh-release@v1
         with:
-          files: build/libs/brixpansion-refabricated-1.0.1.jar
+          files: cat.txt
           tag_name: name
           name: 1.20.2
           token: ${{ secrets.GH_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
