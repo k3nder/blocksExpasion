@@ -28,21 +28,16 @@ jobs:
           # Construir con Gradle
           ./gradlew.bat build
 
-      - name: Copiar JAR a directorio de artefactos
+      - name: Crear nueva versión en GitHub y Subir JAR como artefacto
         run: |
           mkdir artifacts
           cp build/libs/brixpansion-refabricated-1.0.1.jar artifacts/
+          
+          # Configurar git para el cli de GitHub
+          gh auth login --with-token $GH_TOKEN
 
-      - name: Configurar git para el cli de GitHub
-        run: gh auth login --with-token $GH_TOKEN
-
-      - name: Subir JAR como artefacto
-        uses: actions/upload-artifact@v2
-        with:
-          name: brixpansion-refabricated-1.0.1.jar
-          path: artifacts/
-      - name: Crear nueva versión en GitHub
-        run: gh release create v1.0.1 $(find artifacts -type f)
+          # Crear nueva versión en GitHub y subir el JAR como asset
+          gh release create v1.0.1 $(find artifacts -type f)
 
       - name: Subir JAR como artefacto
         uses: actions/upload-artifact@v2
