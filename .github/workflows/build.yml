@@ -25,11 +25,6 @@ jobs:
           # Construir con Gradle
           ./gradlew.bat build
 
-  publish:
-    needs: build
-    runs-on: windows-least
-
-    steps:
       - name: create release
         uses: nekofar/create-github-release@v1.0.9
         with:
