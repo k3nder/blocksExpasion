@@ -8,29 +8,23 @@ on: [pull_request, push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checkout del código
         uses: actions/checkout@v2
 
       - name: Configurar Java y construcción con Gradle
-        run: ./gradlew build
+        uses: actions/setup-java@v2
+        with:
+          distribution: "adopt"
+          java-version: "17"
 
-  test:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout del código
-        uses: actions/checkout@v2
-
-      - name: Configurar Java y ejecutar pruebas
-        run: ./gradlew test  # Ajusta según tu configuración
+      - name: Configuración de Java y construcción con Gradle
+        run: .\gradlew.bat build
 
   release:
-    needs: test
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checkout del código
@@ -42,12 +36,12 @@ jobs:
       - name: Crear nueva versión en GitHub y Subir JAR como artefacto
         run: |
           mkdir artifacts
-          cp build/libs/brixpansion-refabricated-1.0.1.jar artifacts/
-          
-          gh release create v1.0.1 $(find artifacts -type f)
+          copy .\build\libs\brixpansion-refabricated-1.0.1.jar artifacts\
+
+          gh release create v1.0.1 $(Get-ChildItem -Path artifacts -File).FullName
 
       - name: Subir JAR como artefacto
         uses: actions/upload-artifact@v2
         with:
           name: brixpansion-refabricated-1.0.1.jar
-          path: artifacts/
+          path: artifacts\
