@@ -25,6 +25,9 @@ jobs:
           # Construir con Gradle
           ./gradlew.bat build
 
+      - name: Configurar git para el cli de GitHub
+        run: gh auth login --with-token ${{ secrets.GH_TOKEN }}
+
       - name: Crear Release en GitHub
         uses: softprops/action-gh-release@v1
         with:
