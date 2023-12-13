@@ -20,18 +20,14 @@ jobs:
           distribution: "adopt"
           java-version: "17"
 
-      #- name: construcción con Gradle
-      #  run: |
-      # Construir con Gradle
-      #    ./gradlew.bat build
-
-      - name: cat
-        run: New-Item cat.txt
+      - name: construcción con Gradle
+        run: |
+          ./gradlew.bat build
 
       - name: Crear Release en GitHub
         uses: softprops/action-gh-release@v1
         with:
-          files: cat.txt
+          files: build/libs/*
           tag_name: name
           name: 1.20.2
 
