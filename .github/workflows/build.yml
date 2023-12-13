@@ -11,6 +11,9 @@ jobs:
     runs-on: windows-latest
 
     steps:
+      - name: Checkout del código
+        uses: actions/checkout@v2
+
       - name: Configurar Java 17
         uses: actions/setup-java@v2
         with:
@@ -23,6 +26,7 @@ jobs:
           ./gradlew.bat build
 
   publish:
+    needs: build
     runs-on: windows-least
 
     steps:
