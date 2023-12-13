@@ -8,35 +8,42 @@ on: [pull_request, push]
 
 jobs:
   build:
-    runs-on: windows-latest
-
-    env:
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout del código
         uses: actions/checkout@v2
 
-      - name: Configurar Java 17
-        uses: actions/setup-java@v2
-        with:
-          distribution: "adopt"
-          java-version: "17"
+      - name: Configurar Java y construcción con Gradle
+        run: ./gradlew build
 
-      - name: Configuración de Java y construcción con Gradle
-        run: |
-          # Construir con Gradle
-          ./gradlew.bat build
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v2
+
+      - name: Configurar Java y ejecutar pruebas
+        run: ./gradlew test  # Ajusta según tu configuración
+
+  release:
+    needs: test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v2
+
+      - name: Configurar git para el cli de GitHub
+        run: gh auth login --with-token ${{ secrets.GH_TOKEN }}
 
       - name: Crear nueva versión en GitHub y Subir JAR como artefacto
         run: |
           mkdir artifacts
           cp build/libs/brixpansion-refabricated-1.0.1.jar artifacts/
           
-          # Configurar git para el cli de GitHub
-          gh auth login --with-token $GH_TOKEN
-
-          # Crear nueva versión en GitHub y subir el JAR como asset
           gh release create v1.0.1 $(find artifacts -type f)
 
       - name: Subir JAR como artefacto
