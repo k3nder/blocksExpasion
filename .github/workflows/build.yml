@@ -16,7 +16,7 @@ jobs:
 
       - name: Configuración de Java y construcción con Gradle
         run: |
-          ./gradlew build
+          gradlew build
 
       - name: Copiar JAR a directorio de artefactos
         run: |
