@@ -14,6 +14,10 @@ jobs:
       - name: Checkout del código
         uses: actions/checkout@v2
 
+      - name: Instalar wget
+        run: |
+          choco install wget -y
+          
       - name: Configuración de Java y construcción con Gradle
         run: |
           # Descargar e instalar Java 17
@@ -22,10 +26,10 @@ jobs:
           rm java.zip
           echo "##[set-output name=JAVA_HOME]$(pwd)/jdk"
           export PATH="$(pwd)/jdk/bin:$PATH"
-
+          
           # Hacer ejecutable el script de Gradle
           chmod +x gradlew.bat
-
+          
           # Construir con Gradle
           ./gradlew.bat build
 
