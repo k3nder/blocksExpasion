@@ -46,7 +46,13 @@ jobs:
           echo "game_version=$minecraft" >> $env:GITHUB_ENV
           echo "fabric_version=$fabric" >> $env:GITHUB_ENV
       # Asegúrate de que el archivo.json está en el mismo directorio que el flujo de traba
-      
+      - name: test json env
+        run: |
+          echo id: $env:id
+          echo name: $env:name
+          echo version: $env:version
+          echo game_version: $env:game_version
+          echo fabricloader: $env:fabric_version
       # Si está en una ubicación diferente, ajusta la ruta en el comando Get-Content
       - name: Crear Release en GitHub
         uses: softprops/action-gh-release@v1
