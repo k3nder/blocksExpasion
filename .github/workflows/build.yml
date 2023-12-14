@@ -32,7 +32,7 @@ jobs:
           $jsonContent = Get-Content -Raw -Path src/main/resources/fabric.mod.json | ConvertFrom-Json
 
           # Obtén el valor deseado (reemplaza 'clave' con la clave real)
-          $env:name = $jsonContent.id
+          ${{ env.name }} = $jsonContent.id
           $env:version = $jsonContent.version
           $env:game_version = $jsonContent.depends.minecraft
           $env:fabric_version = $jsonContent.depends.fabricloader
