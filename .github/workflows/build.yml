@@ -45,7 +45,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: build/libs/*
-          tag_name: ${{ fabric_version }}
+          tag_name: gh #${{ fabric_version }}
           name: ${{ name }} - ${{ version }}
           body: update $name to versión $version , use Minecraft $game_version and fabrica loader $fabric_loader
         env:
