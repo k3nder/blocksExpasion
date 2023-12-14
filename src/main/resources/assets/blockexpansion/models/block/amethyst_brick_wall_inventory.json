@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "blockexpansion:block/amethyst_bricks",
+    "particle": "blockexpansion:block/amethyst_bricks"
+  }
+}

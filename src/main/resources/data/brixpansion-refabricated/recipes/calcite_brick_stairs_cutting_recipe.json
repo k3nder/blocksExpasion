@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "tag": "brixpansion:calcite_blocks"
-  },
-  "result": "brixpansion:calcite_brick_stairs"
-}

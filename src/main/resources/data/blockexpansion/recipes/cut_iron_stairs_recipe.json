@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:cut_iron"
+    },
+    "3": {
+      "item": "blockexpansion:cut_iron"
+    },
+    "4": {
+      "item": "blockexpansion:cut_iron"
+    },
+    "6": {
+      "item": "blockexpansion:cut_iron"
+    },
+    "7": {
+      "item": "blockexpansion:cut_iron"
+    },
+    "8": {
+      "item": "blockexpansion:cut_iron"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:cut_iron_stairs",
+    "count": 4
+  }
+}

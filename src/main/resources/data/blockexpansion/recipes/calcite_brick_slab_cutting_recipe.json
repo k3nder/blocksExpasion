@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "tag": "blockexpansion:calcite_blocks"
+  },
+  "result": "blockexpansion:calcite_brick_slab"
+}

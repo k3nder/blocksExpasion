@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "blockexpansion:block/amethyst_bricks",
+    "top": "blockexpansion:block/amethyst_bricks",
+    "side": "blockexpansion:block/amethyst_bricks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "blockexpansion:cut_gold"
+  },
+  "result": "blockexpansion:cut_gold_stairs"
+}

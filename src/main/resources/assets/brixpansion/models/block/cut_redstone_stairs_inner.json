@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "brixpansion:block/cut_redstone",
-    "top": "brixpansion:block/cut_redstone",
-    "side": "brixpansion:block/cut_redstone"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "brixpansion:block/cut_diamond",
-    "top": "brixpansion:block/cut_diamond",
-    "side": "brixpansion:block/cut_diamond"
-  }
-}

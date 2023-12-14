@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blockexpansion:block/cut_diamond_slab"
+    },
+    "type=top": {
+      "model": "blockexpansion:block/cut_diamond_slab_top"
+    },
+    "type=double": {
+      "model": "blockexpansion:block/cut_diamond_slab_full"
+    }
+  }
+}

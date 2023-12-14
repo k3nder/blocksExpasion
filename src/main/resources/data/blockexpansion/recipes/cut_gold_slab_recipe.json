@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:cut_gold"
+    },
+    "1": {
+      "item": "blockexpansion:cut_gold"
+    },
+    "2": {
+      "item": "blockexpansion:cut_gold"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:cut_gold_slab",
+    "count": 6
+  }
+}

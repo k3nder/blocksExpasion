@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "blockexpansion:block/cut_diamond",
+    "top": "blockexpansion:block/cut_diamond",
+    "side": "blockexpansion:block/cut_diamond"
+  }
+}

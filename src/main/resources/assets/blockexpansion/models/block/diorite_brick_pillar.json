@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blockexpansion:block/diorite_pillar_top",
+    "up": "blockexpansion:block/diorite_pillar_top",
+    "north": "blockexpansion:block/diorite_pillar",
+    "east": "blockexpansion:block/diorite_pillar",
+    "south": "blockexpansion:block/diorite_pillar",
+    "west": "blockexpansion:block/diorite_pillar",
+    "particle": "blockexpansion:block/diorite_pillar_top"
+  }
+}

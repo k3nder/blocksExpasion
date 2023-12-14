@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:cut_lapis"
+    },
+    "1": {
+      "item": "blockexpansion:cut_lapis"
+    },
+    "2": {
+      "item": "blockexpansion:cut_lapis"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:cut_lapis_slab",
+    "count": 6
+  }
+}

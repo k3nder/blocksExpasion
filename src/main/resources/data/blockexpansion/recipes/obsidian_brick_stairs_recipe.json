@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:obsidian_bricks"
+    },
+    "3": {
+      "item": "blockexpansion:obsidian_bricks"
+    },
+    "4": {
+      "item": "blockexpansion:obsidian_bricks"
+    },
+    "6": {
+      "item": "blockexpansion:obsidian_bricks"
+    },
+    "7": {
+      "item": "blockexpansion:obsidian_bricks"
+    },
+    "8": {
+      "item": "blockexpansion:obsidian_bricks"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:obsidian_brick_stairs",
+    "count": 4
+  }
+}

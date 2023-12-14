@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "blockexpansion:block/cut_lapis",
+    "particle": "blockexpansion:block/cut_lapis"
+  }
+}

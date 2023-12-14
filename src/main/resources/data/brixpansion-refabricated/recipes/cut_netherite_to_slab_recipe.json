@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "brixpansion:cut_netherite"
-  },
-  "result": "brixpansion:cut_netherite_slab"
-}

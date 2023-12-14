@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "brixpansion:cut_diamond"
-  },
-  "result": "brixpansion:cut_diamond_stairs"
-}

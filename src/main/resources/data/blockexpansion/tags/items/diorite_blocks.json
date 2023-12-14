@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diorite",
+    "blockexpansion:diorite_bricks",
+    "minecraft:polished_diorite"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "blockexpansion:block/cut_netherite",
+    "top": "blockexpansion:block/cut_netherite",
+    "side": "blockexpansion:block/cut_netherite"
+  }
+}

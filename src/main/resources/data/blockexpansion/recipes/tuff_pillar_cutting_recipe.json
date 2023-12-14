@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "blockexpansion:tuff_blocks"
+  },
+  "result": "blockexpansion:tuff_brick_pillar"
+}

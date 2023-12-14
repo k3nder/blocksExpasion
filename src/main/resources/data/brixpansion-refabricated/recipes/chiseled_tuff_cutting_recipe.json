@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "tag": "brixpansion:tuff_blocks"
-  },
-  "result": "brixpansion:chiseled_tuff_bricks"
-}

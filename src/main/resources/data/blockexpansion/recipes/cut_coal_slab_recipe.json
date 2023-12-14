@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:cut_coal"
+    },
+    "1": {
+      "item": "blockexpansion:cut_coal"
+    },
+    "2": {
+      "item": "blockexpansion:cut_coal"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:cut_coal_slab",
+    "count": 6
+  }
+}

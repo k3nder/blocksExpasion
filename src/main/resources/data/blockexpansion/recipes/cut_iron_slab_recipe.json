@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:cut_iron"
+    },
+    "1": {
+      "item": "blockexpansion:cut_iron"
+    },
+    "2": {
+      "item": "blockexpansion:cut_iron"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:cut_iron_slab",
+    "count": 6
+  }
+}

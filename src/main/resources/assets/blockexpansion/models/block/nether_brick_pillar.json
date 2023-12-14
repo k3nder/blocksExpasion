@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blockexpansion:block/nether_brick_pillar_top",
+    "up": "blockexpansion:block/nether_brick_pillar_top",
+    "north": "blockexpansion:block/nether_brick_pillar",
+    "east": "blockexpansion:block/nether_brick_pillar",
+    "south": "blockexpansion:block/nether_brick_pillar",
+    "west": "blockexpansion:block/nether_brick_pillar",
+    "particle": "blockexpansion:block/nether_brick_pillar_top"
+  }
+}

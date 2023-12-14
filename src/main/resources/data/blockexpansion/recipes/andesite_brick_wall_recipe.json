@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:andesite_bricks"
+    },
+    "1": {
+      "item": "blockexpansion:andesite_bricks"
+    },
+    "2": {
+      "item": "blockexpansion:andesite_bricks"
+    },
+    "3": {
+      "item": "blockexpansion:andesite_bricks"
+    },
+    "4": {
+      "item": "blockexpansion:andesite_bricks"
+    },
+    "5": {
+      "item": "blockexpansion:andesite_bricks"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:andesite_brick_wall",
+    "count": 6
+  }
+}

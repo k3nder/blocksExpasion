@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "brixpansion:cut_gold"
-  },
-  "result": "brixpansion:cut_gold_slab"
-}

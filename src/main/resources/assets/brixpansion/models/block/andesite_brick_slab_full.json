@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_bottom_top",
-  "textures": {
-    "bottom": "brixpansion:block/andesite_bricks",
-    "top": "brixpansion:block/andesite_bricks",
-    "side": "brixpansion:block/andesite_bricks"
-  }
-}

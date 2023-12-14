@@ -1,7 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "brixpansion:block/andesite_bricks",
-    "particle": "brixpansion:block/andesite_bricks"
-  }
-}

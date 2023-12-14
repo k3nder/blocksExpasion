@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "blockexpansion:block/basalt_bricks",
+    "top": "blockexpansion:block/basalt_bricks",
+    "side": "blockexpansion:block/basalt_bricks"
+  }
+}

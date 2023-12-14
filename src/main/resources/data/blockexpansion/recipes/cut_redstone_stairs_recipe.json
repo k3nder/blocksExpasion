@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:cut_redstone"
+    },
+    "3": {
+      "item": "blockexpansion:cut_redstone"
+    },
+    "4": {
+      "item": "blockexpansion:cut_redstone"
+    },
+    "6": {
+      "item": "blockexpansion:cut_redstone"
+    },
+    "7": {
+      "item": "blockexpansion:cut_redstone"
+    },
+    "8": {
+      "item": "blockexpansion:cut_redstone"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:cut_redstone_stairs",
+    "count": 4
+  }
+}

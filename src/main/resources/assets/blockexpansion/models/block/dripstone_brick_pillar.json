@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blockexpansion:block/dripstone_pillar_top",
+    "up": "blockexpansion:block/dripstone_pillar_top",
+    "north": "blockexpansion:block/dripstone_pillar",
+    "east": "blockexpansion:block/dripstone_pillar",
+    "south": "blockexpansion:block/dripstone_pillar",
+    "west": "blockexpansion:block/dripstone_pillar",
+    "particle": "blockexpansion:block/dripstone_pillar_top"
+  }
+}

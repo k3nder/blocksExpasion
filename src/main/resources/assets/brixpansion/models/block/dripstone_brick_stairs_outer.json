@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "brixpansion:block/dripstone_bricks",
-    "top": "brixpansion:block/dripstone_bricks",
-    "side": "brixpansion:block/dripstone_bricks"
-  }
-}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:cut_netherite"
+    },
+    "1": {
+      "item": "blockexpansion:cut_netherite"
+    },
+    "2": {
+      "item": "blockexpansion:cut_netherite"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:cut_netherite_slab",
+    "count": 6
+  }
+}

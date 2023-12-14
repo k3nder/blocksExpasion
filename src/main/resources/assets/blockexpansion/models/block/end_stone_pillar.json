@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blockexpansion:block/end_stone_pillar_top",
+    "up": "blockexpansion:block/end_stone_pillar_top",
+    "north": "blockexpansion:block/end_stone_pillar",
+    "east": "blockexpansion:block/end_stone_pillar",
+    "south": "blockexpansion:block/end_stone_pillar",
+    "west": "blockexpansion:block/end_stone_pillar",
+    "particle": "blockexpansion:block/end_stone_pillar_top"
+  }
+}

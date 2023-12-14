@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blockexpansion:block/obsidian_pillar_top",
+    "up": "blockexpansion:block/obsidian_pillar_top",
+    "north": "blockexpansion:block/obsidian_pillar",
+    "east": "blockexpansion:block/obsidian_pillar",
+    "south": "blockexpansion:block/obsidian_pillar",
+    "west": "blockexpansion:block/obsidian_pillar",
+    "particle": "blockexpansion:block/obsidian_pillar_top"
+  }
+}

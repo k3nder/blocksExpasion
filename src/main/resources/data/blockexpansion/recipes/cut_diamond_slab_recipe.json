@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:cut_diamond"
+    },
+    "1": {
+      "item": "blockexpansion:cut_diamond"
+    },
+    "2": {
+      "item": "blockexpansion:cut_diamond"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:cut_diamond_slab",
+    "count": 6
+  }
+}

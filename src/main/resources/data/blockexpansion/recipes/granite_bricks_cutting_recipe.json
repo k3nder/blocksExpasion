@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "blockexpansion:raw_granite_blocks"
+  },
+  "result": "blockexpansion:granite_bricks"
+}

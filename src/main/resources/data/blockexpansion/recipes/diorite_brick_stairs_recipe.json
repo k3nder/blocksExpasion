@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:diorite_bricks"
+    },
+    "3": {
+      "item": "blockexpansion:diorite_bricks"
+    },
+    "4": {
+      "item": "blockexpansion:diorite_bricks"
+    },
+    "6": {
+      "item": "blockexpansion:diorite_bricks"
+    },
+    "7": {
+      "item": "blockexpansion:diorite_bricks"
+    },
+    "8": {
+      "item": "blockexpansion:diorite_bricks"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:diorite_brick_stairs",
+    "count": 4
+  }
+}

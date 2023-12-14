@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "blockexpansion:block/tuff_bricks",
+    "particle": "blockexpansion:block/tuff_bricks"
+  }
+}

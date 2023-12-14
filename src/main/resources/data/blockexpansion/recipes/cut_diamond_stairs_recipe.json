@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:cut_diamond"
+    },
+    "3": {
+      "item": "blockexpansion:cut_diamond"
+    },
+    "4": {
+      "item": "blockexpansion:cut_diamond"
+    },
+    "6": {
+      "item": "blockexpansion:cut_diamond"
+    },
+    "7": {
+      "item": "blockexpansion:cut_diamond"
+    },
+    "8": {
+      "item": "blockexpansion:cut_diamond"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:cut_diamond_stairs",
+    "count": 4
+  }
+}

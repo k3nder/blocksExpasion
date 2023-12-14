@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "brixpansion:block/cracked_andesite_bricks",
-    "particle": "brixpansion:block/cracked_andesite_bricks"
-  }
-}

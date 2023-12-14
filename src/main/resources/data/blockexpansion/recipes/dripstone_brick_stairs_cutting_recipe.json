@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "blockexpansion:dripstone_blocks"
+  },
+  "result": "blockexpansion:dripstone_brick_stairs"
+}

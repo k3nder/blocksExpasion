@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "minecraft:prismarine_bricks"
+  },
+  "result": "blockexpansion:cracked_prismarine_bricks"
+}

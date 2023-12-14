@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 4,
-  "ingredient": {
-    "item": "minecraft:gold_block"
-  },
-  "result": "brixpansion:cut_gold_stairs"
-}

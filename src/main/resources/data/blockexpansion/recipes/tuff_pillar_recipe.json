@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:tuff_bricks"
+    },
+    "1": {
+      "item": "blockexpansion:tuff_bricks"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:tuff_brick_pillar",
+    "count": 2
+  }
+}

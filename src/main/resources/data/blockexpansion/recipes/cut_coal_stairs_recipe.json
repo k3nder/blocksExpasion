@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:cut_coal"
+    },
+    "3": {
+      "item": "blockexpansion:cut_coal"
+    },
+    "4": {
+      "item": "blockexpansion:cut_coal"
+    },
+    "6": {
+      "item": "blockexpansion:cut_coal"
+    },
+    "7": {
+      "item": "blockexpansion:cut_coal"
+    },
+    "8": {
+      "item": "blockexpansion:cut_coal"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:cut_coal_stairs",
+    "count": 4
+  }
+}

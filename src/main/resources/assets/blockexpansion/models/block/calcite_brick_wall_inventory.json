@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "blockexpansion:block/calcite_bricks",
+    "particle": "blockexpansion:block/calcite_bricks"
+  }
+}

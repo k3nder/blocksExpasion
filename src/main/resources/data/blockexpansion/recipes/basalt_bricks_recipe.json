@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "tag": "blockexpansion:basalt_for_bricks"
+    },
+    "1": {
+      "tag": "blockexpansion:basalt_for_bricks"
+    },
+    "2": {
+      "tag": "blockexpansion:basalt_for_bricks"
+    },
+    "3": {
+      "tag": "blockexpansion:basalt_for_bricks"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:basalt_bricks",
+    "count": 4
+  }
+}

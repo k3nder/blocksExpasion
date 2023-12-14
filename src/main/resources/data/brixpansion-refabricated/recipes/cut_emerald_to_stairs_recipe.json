@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "brixpansion:cut_emerald"
-  },
-  "result": "brixpansion:cut_emerald_stairs"
-}

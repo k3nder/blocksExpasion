@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:cut_netherite"
+    },
+    "3": {
+      "item": "blockexpansion:cut_netherite"
+    },
+    "4": {
+      "item": "blockexpansion:cut_netherite"
+    },
+    "6": {
+      "item": "blockexpansion:cut_netherite"
+    },
+    "7": {
+      "item": "blockexpansion:cut_netherite"
+    },
+    "8": {
+      "item": "blockexpansion:cut_netherite"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:cut_netherite_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:calcite_bricks"
+    },
+    "1": {
+      "item": "blockexpansion:calcite_bricks"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:calcite_brick_pillar",
+    "count": 2
+  }
+}

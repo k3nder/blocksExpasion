@@ -1,0 +1,13 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "blockexpansion:chiseled_red_nether_bricks"
+                }
+            ]
+        }
+    ]
+}

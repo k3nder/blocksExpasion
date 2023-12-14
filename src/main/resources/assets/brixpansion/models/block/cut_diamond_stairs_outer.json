@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "brixpansion:block/cut_diamond",
-    "top": "brixpansion:block/cut_diamond",
-    "side": "brixpansion:block/cut_diamond"
-  }
-}

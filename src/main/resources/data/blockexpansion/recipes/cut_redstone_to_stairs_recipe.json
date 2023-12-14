@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "blockexpansion:cut_redstone"
+  },
+  "result": "blockexpansion:cut_redstone_stairs"
+}

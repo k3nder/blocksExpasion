@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "blockexpansion:diorite_blocks"
+  },
+  "result": "blockexpansion:diorite_brick_stairs"
+}

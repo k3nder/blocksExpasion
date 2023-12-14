@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "blockexpansion:block/obsidian_bricks",
+    "particle": "blockexpansion:block/obsidian_bricks"
+  }
+}

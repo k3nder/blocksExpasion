@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "blockexpansion:obsidian_bricks"
+    },
+    "1": {
+      "item": "blockexpansion:obsidian_bricks"
+    }
+  },
+  "result": {
+    "item": "blockexpansion:obsidian_brick_pillar",
+    "count": 2
+  }
+}

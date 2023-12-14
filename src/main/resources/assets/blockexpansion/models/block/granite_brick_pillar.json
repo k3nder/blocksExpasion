@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blockexpansion:block/granite_pillar_top",
+    "up": "blockexpansion:block/granite_pillar_top",
+    "north": "blockexpansion:block/granite_pillar",
+    "east": "blockexpansion:block/granite_pillar",
+    "south": "blockexpansion:block/granite_pillar",
+    "west": "blockexpansion:block/granite_pillar",
+    "particle": "blockexpansion:block/granite_pillar_top"
+  }
+}

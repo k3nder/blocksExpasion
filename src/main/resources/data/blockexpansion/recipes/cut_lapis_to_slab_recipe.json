@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "blockexpansion:cut_lapis"
+  },
+  "result": "blockexpansion:cut_lapis_slab"
+}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "tag": "brixpansion:andesite_blocks"
-  },
-  "result": "brixpansion:andesite_brick_wall"
-}
