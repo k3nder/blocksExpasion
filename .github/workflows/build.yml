@@ -9,7 +9,10 @@ jobs:
   build:
     runs-on: windows-latest
     env:
-        chv: hol
+        version: version
+        name: name
+        game_version: game
+        fabric_version: num
     steps:
       - name: Checkout del código
         uses: actions/checkout@v2
@@ -22,7 +25,7 @@ jobs:
 
       - name: construcción con Gradle
         run: |
-           #./gradlew.bat build
+           ./gradlew.bat build
       - name: Leer y Extraer Valor del JSON
         shell: powershell
         run: |
@@ -30,21 +33,21 @@ jobs:
           $jsonContent = Get-Content -Raw -Path src/main/resources/fabric.mod.json | ConvertFrom-Json
 
           # Obtén el valor deseado (reemplaza 'clave' con la clave real)
-          $valorDeseado = $jsonContent.name
-
-          echo $valorDeseado
+          $env:name = $jsonContent.id
+          $env:versión = $jsonContent.version
+          $env:game_version = $jsonContent.depends.minecraft
+          $env:fabric_version = $jsonContent.depends.fabricloader
       # Asegúrate de que el archivo.json está en el mismo directorio que el flujo de trabajo
       
-      - name: test
-        run: echo $env:chv
+      
       
       # Si está en una ubicación diferente, ajusta la ruta en el comando Get-Content
       - name: Crear Release en GitHub
         uses: softprops/action-gh-release@v1
         with:
-          #files: build/libs/*
-          tag_name: name
-          name: 1.20.2
-
+          files: build/libs/*
+          tag_name: $fabric_version
+          name: $name - $version
+          body: update $name to versión $version , use Minecraft $game_version and fabrica loader $fabric_loader
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
