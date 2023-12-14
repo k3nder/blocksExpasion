@@ -8,6 +8,7 @@ jobs:
   build:
     runs-on: windows-latest
     env:
+        id: id
         version: version
         name: name
         game_version: game
@@ -32,23 +33,27 @@ jobs:
           $jsonContent = Get-Content -Raw -Path src/main/resources/fabric.mod.json | ConvertFrom-Json
 
           # Obtén el valor deseado (reemplaza 'clave' con la clave real)
+          $id = $jsonContent.id
+          $name = $jsonContent.name
+          $version = $jsonContent.version
+          $depends = $jsonContent.depends
+          $minecraft = $depends.minecraft
+          &fabric = $depends.fabricloader
 
-          echo "name=$jsonContent.id" >> $env:GITHUB_ENV
-          echo "version=$jsonContent.version" >> $env:GITHUB_ENV
-          echo "game_version=$jsonContent.depends.minecraft" >> $env:GITHUB_ENV
-          echo "fabric_version=$jsonContent.depends.fabricloader" >> $env:GITHUB_ENV
-      # Asegúrate de que el archivo.json está en el mismo directorio que el flujo de trabajo
-      
-      - name: test json var
-        run: echo "name_id:${{ env.name }}\nversion:${{ env.version }}"
+          echo "id=$id" >> $env:GITHUB_ENV
+          echo "name=$name" >> $env:GITHUB_ENV
+          echo "version=$version" >> $env:GITHUB_ENV
+          echo "game_version=$minecraft" >> $env:GITHUB_ENV
+          echo "fabric_version=$fabric" >> $env:GITHUB_ENV
+      # Asegúrate de que el archivo.json está en el mismo directorio que el flujo de traba
       
       # Si está en una ubicación diferente, ajusta la ruta en el comando Get-Content
       - name: Crear Release en GitHub
         uses: softprops/action-gh-release@v1
         with:
           files: build/libs/*
-          tag_name: ${{ env.fabric_version }}
-          name: ${{ env.name }} - ${{ env.version }}
+          tag_name: ${{ env.game_version }}
+          name: ${{ env.name }}-${{ env.version }}
           body: update ${{ env.name }} to versión ${{ env.version }}, use Minecraft ${{ env.game_version }} and fabrica loader ${{ env.fabric_loader }}
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
