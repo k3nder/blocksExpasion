@@ -23,7 +23,19 @@ jobs:
       - name: construcción con Gradle
         run: |
           ./gradlew.bat build
+      - name: Leer y Extraer Valor del JSON
+        shell: powershell
+        run: |
+          # Lee el contenido del archivo JSON en una variable
+          $jsonContent = Get-Content -Raw -Path src/main/resources/fabric.mod.json | ConvertFrom-Json
 
+          # Obtén el valor deseado (reemplaza 'clave' con la clave real)
+          $valorDeseado = $jsonContent.namr
+
+          Write-Host "Valor deseado del JSON: $valorDeseado"
+
+      # Asegúrate de que el archivo.json está en el mismo directorio que el flujo de trabajo
+      # Si está en una ubicación diferente, ajusta la ruta en el comando Get-Content
       - name: Crear Release en GitHub
         uses: softprops/action-gh-release@v1
         with:
