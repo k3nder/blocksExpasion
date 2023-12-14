@@ -37,7 +37,7 @@ jobs:
           $name = $jsonContent.name
           $version = $jsonContent.version
           $depends = $jsonContent.depends
-          $minecraft = $depends.minecraft
+          $minecraft = $depends.minecraft.Replace("~", "")
           $fabric = $depends.fabricloader
 
           echo "id=$id" >> $env:GITHUB_ENV
