@@ -8,7 +8,8 @@ on: [pull_request, push]
 jobs:
   build:
     runs-on: windows-latest
-
+    env:
+        chv: hol
     steps:
       - name: Checkout del código
         uses: actions/checkout@v2
@@ -21,7 +22,7 @@ jobs:
 
       - name: construcción con Gradle
         run: |
-          ./gradlew.bat build
+           #./gradlew.bat build
       - name: Leer y Extraer Valor del JSON
         shell: powershell
         run: |
@@ -31,15 +32,17 @@ jobs:
           # Obtén el valor deseado (reemplaza 'clave' con la clave real)
           $valorDeseado = $jsonContent.name
 
-          echo "FILE_CONTENT=$content" >> $env:GITHUB_ENV
-      - name: test Json
-        run: echo $FILE_CONTENT
+          echo $valorDeseado >> $env:GITHUB_ENV
       # Asegúrate de que el archivo.json está en el mismo directorio que el flujo de trabajo
+      
+      - name: test
+        run: echo $chv
+      
       # Si está en una ubicación diferente, ajusta la ruta en el comando Get-Content
       - name: Crear Release en GitHub
         uses: softprops/action-gh-release@v1
         with:
-          files: build/libs/*
+          #files: build/libs/*
           tag_name: name
           name: 1.20.2
 
