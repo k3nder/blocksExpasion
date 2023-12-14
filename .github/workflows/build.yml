@@ -38,7 +38,7 @@ jobs:
           $version = $jsonContent.version
           $depends = $jsonContent.depends
           $minecraft = $depends.minecraft
-          &fabric = $depends.fabricloader
+          $fabric = $depends.fabricloader
 
           echo "id=$id" >> $env:GITHUB_ENV
           echo "name=$name" >> $env:GITHUB_ENV
