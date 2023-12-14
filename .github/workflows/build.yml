@@ -36,7 +36,7 @@ jobs:
       # Asegúrate de que el archivo.json está en el mismo directorio que el flujo de trabajo
       
       - name: test
-        run: echo $chv
+        run: echo $env:chv
       
       # Si está en una ubicación diferente, ajusta la ruta en el comando Get-Content
       - name: Crear Release en GitHub
