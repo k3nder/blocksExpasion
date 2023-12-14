@@ -1,5 +1,4 @@
-# Automatically build the project and run any configured tests for every push# and submitted pull request. This can help catch issues that only occur on
-# certain platforms or Java versions, and provides a first line of defence
+# Automatically build the project and run any configured tests for every push# and submitted pull request. This can help catch issues that only occur on# certain platforms or Java versions, and provides a first line of defence
 # against bad commits.
 
 name: build
@@ -46,8 +45,8 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: build/libs/*
-          tag_name: $fabric_version
-          name: $name - $version
+          tag_name: ${{ fabric_version }}
+          name: ${{ name }} - ${{ version }}
           body: update $name to versión $version , use Minecraft $game_version and fabrica loader $fabric_loader
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
