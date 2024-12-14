@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "block-expansion",
-	"version": "1.3.1+1.20.6",
+	"version": "1.3.1+1.21",
 	"name": "block expansion",
 	"description": "A bricks extension",
 	"authors": [
@@ -31,7 +31,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
-		"minecraft": "~1.20.6",
+		"minecraft": "~1.21",
 		"java": "*",
 		"fabric-api": "*"
 	},
