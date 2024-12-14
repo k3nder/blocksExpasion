@@ -55,7 +55,7 @@ jobs:
           echo fabricloader: $env:fabric_version
       # Si está en una ubicación diferente, ajusta la ruta en el comando Get-Content
       - name: Publish into release
-        uses: softprops/action-gh-release
+        uses: softprops/action-gh-release@v1
         with:
           files: build/libs/*
           tag_name: ${{ env.version }}
