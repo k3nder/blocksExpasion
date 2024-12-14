@@ -54,12 +54,11 @@ jobs:
           echo game_version: $env:game_version
           echo fabricloader: $env:fabric_version
       # Si está en una ubicación diferente, ajusta la ruta en el comando Get-Content
-      - name: Crear Release en GitHub
-        uses: softprops/action-gh-release@v1
+      - name: Publish into release
+        uses: softprops/action-gh-release
         with:
-          files: build/libs/block expansion-${{ env.version }}.jar
-          tag_name: ${{ env.game_version }}
-          name: ${{ env.name }}-${{ env.version }}
-          body: update ${{ env.name }} to versión ${{ env.version }}, use Minecraft ${{ env.game_version }} and fabrica loader ${{ env.fabric_loader }}
+          files: build/libs/*
+          tag_name: ${{ env.version }}
+          name: ${{ github.repository }}-${{ env.version }}
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
