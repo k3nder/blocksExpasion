@@ -62,4 +62,4 @@ jobs:
           name: ${{ env.name }}-${{ env.version }}
           body: update ${{ env.name }} to versión ${{ env.version }}, use Minecraft ${{ env.game_version }} and fabrica loader ${{ env.fabric_loader }}
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
