@@ -7,6 +7,8 @@ on: [pull_request, push]
 jobs:
   build:
     runs-on: windows-latest
+    permissions:
+      contents: write
     env:
         id: id
         version: version
@@ -60,5 +62,3 @@ jobs:
           files: build/libs/*
           tag_name: ${{ env.version }}
           name: ${{ github.repository }}-${{ env.version }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
