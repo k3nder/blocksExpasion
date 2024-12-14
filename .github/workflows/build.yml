@@ -57,7 +57,7 @@ jobs:
       - name: Crear Release en GitHub
         uses: softprops/action-gh-release@v1
         with:
-          files: build/libs/*
+          files: build/libs/block expansion-${{ env.version }}.jar
           tag_name: ${{ env.game_version }}
           name: ${{ env.name }}-${{ env.version }}
           body: update ${{ env.name }} to versión ${{ env.version }}, use Minecraft ${{ env.game_version }} and fabrica loader ${{ env.fabric_loader }}
