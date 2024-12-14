@@ -273,491 +273,491 @@ public class ExampleMod implements ModInitializer {
 
                 // registeries
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_netherite"), cut_netherite);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_netherite"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_netherite"), cut_netherite);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_netherite"),
                                 new BlockItem(cut_netherite, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "dripstone_brick_pillar"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "dripstone_brick_pillar"),
                                 dripstone_brick_pillar);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "dripstone_brick_pillar"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "dripstone_brick_pillar"),
                                 new BlockItem(dripstone_brick_pillar, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_netherite_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_netherite_stairs"),
                                 cut_netherite_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_netherite_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_netherite_stairs"),
                                 new BlockItem(cut_netherite_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "diorite_brick_wall"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "diorite_brick_wall"),
                                 diorite_brick_wall);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "diorite_brick_wall"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "diorite_brick_wall"),
                                 new BlockItem(diorite_brick_wall, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "chiseled_diorite_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "chiseled_diorite_bricks"),
                                 chiseled_diorite_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "chiseled_diorite_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "chiseled_diorite_bricks"),
                                 new BlockItem(chiseled_diorite_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cracked_basalt_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cracked_basalt_bricks"),
                                 cracked_basalt_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cracked_basalt_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cracked_basalt_bricks"),
                                 new BlockItem(cracked_basalt_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "diorite_brick_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "diorite_brick_stairs"),
                                 diorite_brick_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "diorite_brick_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "diorite_brick_stairs"),
                                 new BlockItem(diorite_brick_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_iron_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_iron_stairs"),
                                 cut_iron_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_iron_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_iron_stairs"),
                                 new BlockItem(cut_iron_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "obsidian_brick_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "obsidian_brick_slab"),
                                 obsidian_brick_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "obsidian_brick_slab"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "obsidian_brick_slab"),
                                 new BlockItem(obsidian_brick_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_coal_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_coal_stairs"),
                                 cut_coal_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_coal_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_coal_stairs"),
                                 new BlockItem(cut_coal_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "tuff_brick_wall"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "tuff_brick_wall"),
                                 tuff_brick_wall);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "tuff_brick_wall"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "tuff_brick_wall"),
                                 new BlockItem(tuff_brick_wall, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "granite_brick_wall"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "granite_brick_wall"),
                                 granite_brick_wall);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "granite_brick_wall"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "granite_brick_wall"),
                                 new BlockItem(granite_brick_wall, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "chiseled_obsidian_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "chiseled_obsidian_bricks"),
                                 chiseled_obsidian_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "chiseled_obsidian_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "chiseled_obsidian_bricks"),
                                 new BlockItem(chiseled_obsidian_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_gold_slab"), cut_gold_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_gold_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_gold_slab"), cut_gold_slab);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_gold_slab"),
                                 new BlockItem(cut_gold_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "granite_brick_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "granite_brick_stairs"),
                                 granite_brick_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "granite_brick_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "granite_brick_stairs"),
                                 new BlockItem(granite_brick_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "dripstone_brick_wall"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "dripstone_brick_wall"),
                                 dripstone_brick_wall);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "dripstone_brick_wall"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "dripstone_brick_wall"),
                                 new BlockItem(dripstone_brick_wall, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "nether_brick_pillar"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "nether_brick_pillar"),
                                 nether_brick_pillar);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "nether_brick_pillar"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "nether_brick_pillar"),
                                 new BlockItem(nether_brick_pillar, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "amethyst_brick_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "amethyst_brick_slab"),
                                 amethyst_brick_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "amethyst_brick_slab"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "amethyst_brick_slab"),
                                 new BlockItem(amethyst_brick_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "basalt_brick_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "basalt_brick_slab"),
                                 basalt_brick_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "basalt_brick_slab"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "basalt_brick_slab"),
                                 new BlockItem(basalt_brick_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "basalt_brick_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "basalt_brick_stairs"),
                                 basalt_brick_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "basalt_brick_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "basalt_brick_stairs"),
                                 new BlockItem(basalt_brick_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "chiseled_tuff_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "chiseled_tuff_bricks"),
                                 chiseled_tuff_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "chiseled_tuff_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "chiseled_tuff_bricks"),
                                 new BlockItem(chiseled_tuff_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cracked_purpur"), cracked_purpur);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cracked_purpur"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cracked_purpur"), cracked_purpur);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cracked_purpur"),
                                 new BlockItem(cracked_purpur, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "andesite_brick_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "andesite_brick_stairs"),
                                 andesite_brick_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "andesite_brick_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "andesite_brick_stairs"),
                                 new BlockItem(andesite_brick_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cracked_dripstone_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cracked_dripstone_bricks"),
                                 cracked_dripstone_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cracked_dripstone_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cracked_dripstone_bricks"),
                                 new BlockItem(cracked_dripstone_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "chiseled_andesite_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "chiseled_andesite_bricks"),
                                 chiseled_andesite_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "chiseled_andesite_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "chiseled_andesite_bricks"),
                                 new BlockItem(chiseled_andesite_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cracked_red_nether_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cracked_red_nether_bricks"),
                                 cracked_red_nether_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cracked_red_nether_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cracked_red_nether_bricks"),
                                 new BlockItem(cracked_red_nether_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_iron"), cut_iron);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_iron"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_iron"), cut_iron);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_iron"),
                                 new BlockItem(cut_iron, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "chiseled_basalt_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "chiseled_basalt_bricks"),
                                 chiseled_basalt_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "chiseled_basalt_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "chiseled_basalt_bricks"),
                                 new BlockItem(chiseled_basalt_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "calcite_brick_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "calcite_brick_stairs"),
                                 calcite_brick_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "calcite_brick_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "calcite_brick_stairs"),
                                 new BlockItem(calcite_brick_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "andesite_brick_wall"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "andesite_brick_wall"),
                                 andesite_brick_wall);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "andesite_brick_wall"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "andesite_brick_wall"),
                                 new BlockItem(andesite_brick_wall, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "tuff_brick_pillar"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "tuff_brick_pillar"),
                                 tuff_brick_pillar);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "tuff_brick_pillar"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "tuff_brick_pillar"),
                                 new BlockItem(tuff_brick_pillar, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "obsidian_brick_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "obsidian_brick_stairs"),
                                 obsidian_brick_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "obsidian_brick_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "obsidian_brick_stairs"),
                                 new BlockItem(obsidian_brick_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_redstone"), cut_redstone);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_redstone"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_redstone"), cut_redstone);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_redstone"),
                                 new BlockItem(cut_redstone, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "amethyst_brick_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "amethyst_brick_stairs"),
                                 amethyst_brick_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "amethyst_brick_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "amethyst_brick_stairs"),
                                 new BlockItem(amethyst_brick_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "obsidian_brick_pillar"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "obsidian_brick_pillar"),
                                 obsidian_brick_pillar);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "obsidian_brick_pillar"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "obsidian_brick_pillar"),
                                 new BlockItem(obsidian_brick_pillar, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cracked_diorite_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cracked_diorite_bricks"),
                                 cracked_diorite_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cracked_diorite_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cracked_diorite_bricks"),
                                 new BlockItem(cracked_diorite_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "chiseled_purpur"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "chiseled_purpur"),
                                 chiseled_purpur);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "chiseled_purpur"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "chiseled_purpur"),
                                 new BlockItem(chiseled_purpur, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_netherite_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_netherite_slab"),
                                 cut_netherite_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_netherite_slab"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_netherite_slab"),
                                 new BlockItem(cut_netherite_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cracked_amethyst_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cracked_amethyst_bricks"),
                                 cracked_amethyst_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cracked_amethyst_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cracked_amethyst_bricks"),
                                 new BlockItem(cracked_amethyst_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "calcite_brick_wall"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "calcite_brick_wall"),
                                 calcite_brick_wall);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "calcite_brick_wall"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "calcite_brick_wall"),
                                 new BlockItem(calcite_brick_wall, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "prismarine_pillar"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "prismarine_pillar"),
                                 prismarine_pillar);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "prismarine_pillar"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "prismarine_pillar"),
                                 new BlockItem(prismarine_pillar, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "andesite_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "andesite_bricks"),
                                 andesite_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "andesite_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "andesite_bricks"),
                                 new BlockItem(andesite_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cracked_end_stone_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cracked_end_stone_bricks"),
                                 cracked_end_stone_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cracked_end_stone_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cracked_end_stone_bricks"),
                                 new BlockItem(cracked_end_stone_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "granite_brick_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "granite_brick_slab"),
                                 granite_brick_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "granite_brick_slab"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "granite_brick_slab"),
                                 new BlockItem(granite_brick_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cracked_obsidian_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cracked_obsidian_bricks"),
                                 cracked_obsidian_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cracked_obsidian_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cracked_obsidian_bricks"),
                                 new BlockItem(cracked_obsidian_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "amethyst_brick_pillar"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "amethyst_brick_pillar"),
                                 amethyst_brick_pillar);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "amethyst_brick_pillar"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "amethyst_brick_pillar"),
                                 new BlockItem(amethyst_brick_pillar, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "tuff_bricks"), tuff_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "tuff_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "tuff_bricks"), tuff_bricks);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "tuff_bricks"),
                                 new BlockItem(tuff_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "chiseled_calcite_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "chiseled_calcite_bricks"),
                                 chiseled_calcite_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "chiseled_calcite_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "chiseled_calcite_bricks"),
                                 new BlockItem(chiseled_calcite_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "basalt_brick_pillar"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "basalt_brick_pillar"),
                                 basalt_brick_pillar);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "basalt_brick_pillar"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "basalt_brick_pillar"),
                                 new BlockItem(basalt_brick_pillar, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "chiseled_red_nether_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "chiseled_red_nether_bricks"),
                                 chiseled_red_nether_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "chiseled_red_nether_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "chiseled_red_nether_bricks"),
                                 new BlockItem(chiseled_red_nether_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cracked_granite_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cracked_granite_bricks"),
                                 cracked_granite_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cracked_granite_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cracked_granite_bricks"),
                                 new BlockItem(cracked_granite_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cracked_prismarine_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cracked_prismarine_bricks"),
                                 cracked_prismarine_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cracked_prismarine_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cracked_prismarine_bricks"),
                                 new BlockItem(cracked_prismarine_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "dripstone_brick_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "dripstone_brick_stairs"),
                                 dripstone_brick_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "dripstone_brick_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "dripstone_brick_stairs"),
                                 new BlockItem(dripstone_brick_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "stone_brick_pillar"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "stone_brick_pillar"),
                                 stone_brick_pillar);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "stone_brick_pillar"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "stone_brick_pillar"),
                                 new BlockItem(stone_brick_pillar, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_diamond"), cut_diamond);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_diamond"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_diamond"), cut_diamond);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_diamond"),
                                 new BlockItem(cut_diamond, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cracked_andesite_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cracked_andesite_bricks"),
                                 cracked_andesite_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cracked_andesite_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cracked_andesite_bricks"),
                                 new BlockItem(cracked_andesite_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "obsidian_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "obsidian_bricks"),
                                 obsidian_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "obsidian_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "obsidian_bricks"),
                                 new BlockItem(obsidian_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "obsidian_brick_wall"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "obsidian_brick_wall"),
                                 obsidian_brick_wall);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "obsidian_brick_wall"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "obsidian_brick_wall"),
                                 new BlockItem(obsidian_brick_wall, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "granite_brick_pillar"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "granite_brick_pillar"),
                                 granite_brick_pillar);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "granite_brick_pillar"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "granite_brick_pillar"),
                                 new BlockItem(granite_brick_pillar, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "chiseled_end_stone_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "chiseled_end_stone_bricks"),
                                 chiseled_end_stone_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "chiseled_end_stone_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "chiseled_end_stone_bricks"),
                                 new BlockItem(chiseled_end_stone_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cracked_calcite_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cracked_calcite_bricks"),
                                 cracked_calcite_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cracked_calcite_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cracked_calcite_bricks"),
                                 new BlockItem(cracked_calcite_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "amethyst_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "amethyst_bricks"),
                                 amethyst_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "amethyst_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "amethyst_bricks"),
                                 new BlockItem(amethyst_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "calcite_bricks"), calcite_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "calcite_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "calcite_bricks"), calcite_bricks);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "calcite_bricks"),
                                 new BlockItem(calcite_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_lapis_slab"), cut_lapis_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_lapis_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_lapis_slab"), cut_lapis_slab);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_lapis_slab"),
                                 new BlockItem(cut_lapis_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "diorite_brick_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "diorite_brick_slab"),
                                 diorite_brick_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "diorite_brick_slab"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "diorite_brick_slab"),
                                 new BlockItem(diorite_brick_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_iron_slab"), cut_iron_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_iron_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_iron_slab"), cut_iron_slab);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_iron_slab"),
                                 new BlockItem(cut_iron_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "chiseled_dripstone_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "chiseled_dripstone_bricks"),
                                 chiseled_dripstone_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "chiseled_dripstone_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "chiseled_dripstone_bricks"),
                                 new BlockItem(chiseled_dripstone_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "granite_bricks"), granite_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "granite_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "granite_bricks"), granite_bricks);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "granite_bricks"),
                                 new BlockItem(granite_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "diorite_brick_pillar"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "diorite_brick_pillar"),
                                 diorite_brick_pillar);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "diorite_brick_pillar"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "diorite_brick_pillar"),
                                 new BlockItem(diorite_brick_pillar, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_coal_slab"), cut_coal_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_coal_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_coal_slab"), cut_coal_slab);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_coal_slab"),
                                 new BlockItem(cut_coal_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_emerald_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_emerald_stairs"),
                                 cut_emerald_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_emerald_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_emerald_stairs"),
                                 new BlockItem(cut_emerald_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "tuff_brick_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "tuff_brick_slab"),
                                 tuff_brick_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "tuff_brick_slab"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "tuff_brick_slab"),
                                 new BlockItem(tuff_brick_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "dripstone_brick_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "dripstone_brick_slab"),
                                 dripstone_brick_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "dripstone_brick_slab"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "dripstone_brick_slab"),
                                 new BlockItem(dripstone_brick_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "amethyst_brick_wall"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "amethyst_brick_wall"),
                                 amethyst_brick_wall);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "amethyst_brick_wall"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "amethyst_brick_wall"),
                                 new BlockItem(amethyst_brick_wall, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "dripstone_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "dripstone_bricks"),
                                 dripstone_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "dripstone_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "dripstone_bricks"),
                                 new BlockItem(dripstone_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_gold_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_gold_stairs"),
                                 cut_gold_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_gold_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_gold_stairs"),
                                 new BlockItem(cut_gold_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "basalt_brick_wall"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "basalt_brick_wall"),
                                 basalt_brick_wall);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "basalt_brick_wall"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "basalt_brick_wall"),
                                 new BlockItem(basalt_brick_wall, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "chiseled_prismarine_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "chiseled_prismarine_bricks"),
                                 chiseled_prismarine_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "chiseled_prismarine_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "chiseled_prismarine_bricks"),
                                 new BlockItem(chiseled_prismarine_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_diamond_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_diamond_slab"),
                                 cut_diamond_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_diamond_slab"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_diamond_slab"),
                                 new BlockItem(cut_diamond_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_emerald"), cut_emerald);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_emerald"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_emerald"), cut_emerald);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_emerald"),
                                 new BlockItem(cut_emerald, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "chiseled_amethyst_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "chiseled_amethyst_bricks"),
                                 chiseled_amethyst_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "chiseled_amethyst_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "chiseled_amethyst_bricks"),
                                 new BlockItem(chiseled_amethyst_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_emerald_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_emerald_slab"),
                                 cut_emerald_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_emerald_slab"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_emerald_slab"),
                                 new BlockItem(cut_emerald_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "end_stone_pillar"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "end_stone_pillar"),
                                 end_stone_pillar);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "end_stone_pillar"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "end_stone_pillar"),
                                 new BlockItem(end_stone_pillar, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "chiseled_granite_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "chiseled_granite_bricks"),
                                 chiseled_granite_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "chiseled_granite_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "chiseled_granite_bricks"),
                                 new BlockItem(chiseled_granite_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "calcite_brick_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "calcite_brick_slab"),
                                 calcite_brick_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "calcite_brick_slab"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "calcite_brick_slab"),
                                 new BlockItem(calcite_brick_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "basalt_bricks"), basalt_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "basalt_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "basalt_bricks"), basalt_bricks);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "basalt_bricks"),
                                 new BlockItem(basalt_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "calcite_brick_pillar"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "calcite_brick_pillar"),
                                 calcite_brick_pillar);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "calcite_brick_pillar"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "calcite_brick_pillar"),
                                 new BlockItem(calcite_brick_pillar, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "andesite_brick_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "andesite_brick_slab"),
                                 andesite_brick_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "andesite_brick_slab"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "andesite_brick_slab"),
                                 new BlockItem(andesite_brick_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "red_nether_brick_pillar"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "red_nether_brick_pillar"),
                                 red_nether_brick_pillar);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "red_nether_brick_pillar"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "red_nether_brick_pillar"),
                                 new BlockItem(red_nether_brick_pillar, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_redstone_slab"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_redstone_slab"),
                                 cut_redstone_slab);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_redstone_slab"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_redstone_slab"),
                                 new BlockItem(cut_redstone_slab, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_gold"), cut_gold);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_gold"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_gold"), cut_gold);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_gold"),
                                 new BlockItem(cut_gold, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "andesite_brick_pillar"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "andesite_brick_pillar"),
                                 andesite_brick_pillar);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "andesite_brick_pillar"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "andesite_brick_pillar"),
                                 new BlockItem(andesite_brick_pillar, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_lapis_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_lapis_stairs"),
                                 cut_lapis_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_lapis_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_lapis_stairs"),
                                 new BlockItem(cut_lapis_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "tuff_brick_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "tuff_brick_stairs"),
                                 tuff_brick_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "tuff_brick_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "tuff_brick_stairs"),
                                 new BlockItem(tuff_brick_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cracked_tuff_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cracked_tuff_bricks"),
                                 cracked_tuff_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cracked_tuff_bricks"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cracked_tuff_bricks"),
                                 new BlockItem(cracked_tuff_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_redstone_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_redstone_stairs"),
                                 cut_redstone_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_redstone_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_redstone_stairs"),
                                 new BlockItem(cut_redstone_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "diorite_bricks"), diorite_bricks);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "diorite_bricks"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "diorite_bricks"), diorite_bricks);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "diorite_bricks"),
                                 new BlockItem(diorite_bricks, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_coal"), cut_coal);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_coal"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_coal"), cut_coal);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_coal"),
                                 new BlockItem(cut_coal, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "red_nether_brick_fence"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "red_nether_brick_fence"),
                                 red_nether_brick_fence);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "red_nether_brick_fence"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "red_nether_brick_fence"),
                                 new BlockItem(red_nether_brick_fence, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_diamond_stairs"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_diamond_stairs"),
                                 cut_diamond_stairs);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_diamond_stairs"),
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_diamond_stairs"),
                                 new BlockItem(cut_diamond_stairs, new Item.Settings()));
 
-                Registry.register(Registries.BLOCK, new Identifier("blockexpansion", "cut_lapis"), cut_lapis);
-                Registry.register(Registries.ITEM, new Identifier("blockexpansion", "cut_lapis"),
+                Registry.register(Registries.BLOCK, Identifier.of("blockexpansion", "cut_lapis"), cut_lapis);
+                Registry.register(Registries.ITEM, Identifier.of("blockexpansion", "cut_lapis"),
                                 new BlockItem(cut_lapis, new Item.Settings()));
 
                 // creative inventory
